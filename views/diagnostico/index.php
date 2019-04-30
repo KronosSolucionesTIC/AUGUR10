@@ -1,14 +1,7 @@
 <?php
-include '../header.php';
+include '../header_diagnostico.php';
 
 include '../../models/users.php';
-$user = new Users();
-
-$CIUU   = $user->getCIIU();
-$sector = $user->getSector();
-$tamano = $user->getTamano();
-$dpto   = $user->getDpto();
-$muni   = $user->getMuni();
 ?>
 <div class="container-fluid" id="principal">
   <div class="row">
@@ -85,25 +78,18 @@ $muni   = $user->getMuni();
   </div>
   <div class="row">
     <div class="col-lg-1">
-      <br>
     </div>
-    <div class="col-lg-10 col-md-12 col-xs-12">
-      <div class="fondo_diag">
-        <label class="titulo_gris">¡HOLA! ACTUALMENTE NO TIENE HISTORIAL DE DIAGNÓSTICOS</label>
-      </div>
+    <div class="col-lg-10 col-md-12 col-xs-12 fondo_diag">
+      <label class="titulo_gris">¡HOLA! ACTUALMENTE NO TIENE HISTORIAL DE DIAGNÓSTICOS</label>
     </div>
     <div class="col-lg-1">
-      <br>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-1">
-      <br>
     </div>
-    <div class="col-lg-10 col-md-12 col-xs-12">
-      <div class="fondo_diag">
-        <label class="titulo_gris">LE INVITAMOS A REALIZAR SU PRIMER DIGANÓSTICO</label>
-      </div>
+    <div class="col-lg-10 col-md-12 col-xs-12 fondo_diag">
+      <label class="titulo_gris">LE INVITAMOS A REALIZAR SU PRIMER DIGANÓSTICO</label>
     </div>
     <div class="col-lg-1">
     </div>
@@ -119,14 +105,29 @@ $muni   = $user->getMuni();
   </div>
   <div class="row">
     <div class="col-lg-1">
+    </div>
+    <div class="col-lg-10 fondo_diag">
       <br>
     </div>
-    <div class="col-lg-10 col-md-12 col-xs-12">
-      <div class="fondo_diag">
-        <div class="Rectangle-66 pt-2 text-center" >
-          <input type="submit" value="CREAR DIAGNÓSTICO" class="boton" name="create">
-        </div>
-      </div>
+    <div class="col-lg-1">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-1">
+    </div>
+    <div class="col-lg-10 fondo_diag">
+      <br>
+    </div>
+    <div class="col-lg-1">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-1">
+    </div>
+    <div class="col-lg-10 col-md-12 col-xs-12 fondo_diag text-center">
+      <a href="../diagnostico/new.php">
+        <input type="submit" value="CREAR DIAGNÓSTICO" class="boton2" name="new">
+      </a>
     </div>
     <div class="col-lg-1">
     </div>
