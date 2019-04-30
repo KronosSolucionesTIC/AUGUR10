@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.584 33.403">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#008c44}.cls-2{stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="datos_empresa" transform="translate(-497.311 -222.341)">
+        <g id="icono_datos_empresa_form" transform="translate(497.933 222.852)">
+            <g id="Group_17" data-name="Group 17">
+                <path id="Path_114" d="M.051.194L25.33.06l-.035 6.59-25.279.134z" class="cls-1" data-name="Path 114" transform="matrix(.478 -.878 .878 .478 0 25.179)"/>
+                <path id="Path_51" d="M13.647 1.489a3.343 3.343 0 0 0-4.679 1.337L8.3 4l6.183 3.342.668-1.17a3.543 3.543 0 0 0-1.504-4.683z" class="cls-2" data-name="Path 51" transform="translate(3.453 -1.018)"/>
+                <path id="Line_9" d="M4.01 0L0 7.185" class="cls-2" data-name="Line 9" transform="translate(11.222 4.649)"/>
+                <path id="Path_52" d="M.7 16.8l.167 7.018 5.849-3.676z" class="cls-2" data-name="Path 52" transform="translate(-.442 8.182)"/>
+            </g>
+            <path id="Line_10" d="M0 0h27.369" class="cls-2" data-name="Line 10" transform="translate(.593 32)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 27">
+    <defs>
+        <style>
+            .cls-1{fill:#feda5e}
+        </style>
+    </defs>
+    <path id="fondo_numeros" d="M26 147.6H4l8-27h22z" class="cls-1" transform="translate(-4 -120.6)"/>
+</svg>
