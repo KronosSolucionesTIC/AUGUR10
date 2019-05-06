@@ -142,7 +142,7 @@
 	    object-fit: contain;
 	}
 	.titulo_verde {
-	    width: 302px;
+	    width: auto;
 	    height: 38px;
 	    font-family: Roboto;
 	    font-size: 28px;
@@ -309,6 +309,24 @@
 	    text-align: center;
 	    color: #6b6b6b;
 	}
+	.boton1 {
+	    font-family: Roboto;
+	    font-size: 16px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: condensed;
+	    line-height: 1.19;
+	    letter-spacing: normal;
+	    color: #6d5f4d;
+	    vertical-align: middle;
+	    text-align: center;
+	    width: auto;
+	    height: 42px;
+	    border-radius: 21px;
+	    background-color: #ffdc5d;
+	    border: 0;
+	    border-color: transparent;
+	}
 	.boton2 {
 	    width: auto;
 	    height: 42px;
@@ -340,4 +358,54 @@
 	}
 	.pestanas_tab {
 	    line-height: 1em;
+	}
+	.texto_verde {
+	    width: auto;
+	    height: 38px;
+	    font-family: Roboto;
+	    font-size: 16px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: condensed;
+	    line-height: 1.2;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #008c44;
+	}
+	.respuestas {
+	    width: 90px;
+	    height: 42px;
+	    border-radius: 21px;
+	    border: solid 1px #008c44;
+	    background-color: white;
+	    font-family: Roboto;
+	    font-size: 16px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: condensed;
+	    line-height: 1.19;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #008c44;
+	    vertical-align: center;
+	}
+	.respuestas a:hover {
+	    color: white;
+	}
+	.respuestas_sel {
+	    width: 90px;
+	    height: 42px;
+	    border-radius: 21px;
+	    border: solid 1px #008c44;
+	    background-color: #008c44;
+	    font-family: Roboto;
+	    font-size: 16px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: condensed;
+	    line-height: 1.19;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: white;
+	    vertical-align: center;
 	}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.369 33.091">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#ffdc5d;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="btn_diagnostico" transform="translate(-1062.98 -36.487)">
+        <ellipse id="Ellipse_1" cx="16.026" cy="16.026" class="cls-1" data-name="Ellipse 1" rx="16.026" ry="16.026" transform="translate(1075.139 37.006)"/>
+        <path id="Path_46" d="M28.267 6.964A9.986 9.986 0 0 0 11.6 14.336a9.35 9.35 0 0 0 .962 4.167" class="cls-1" data-name="Path 46" transform="translate(1067.629 38.856)"/>
+        <path id="Path_47" d="M13.8 19.138a9.5 9.5 0 0 0 6.571 2.4 9.986 9.986 0 0 0 9.936-9.936 10.333 10.333 0 0 0-.481-3.202" class="cls-1" data-name="Path 47" transform="translate(1068.955 41.267)"/>
+        <path id="Path_48" d="M11.6 22.067l5.128-6.41 2.564 1.6 3.208-4.485 2.562 1.928 7.212-9.3" class="cls-1" data-name="Path 48" transform="translate(1067.629 39.459)"/>
+        <path id="Line_7" d="M0 0l1.923.16" class="cls-1" data-name="Line 7" transform="translate(1097.979 44.699)"/>
+        <path id="Line_8" d="M0 0l.321 2.083" class="cls-1" data-name="Line 8" transform="translate(1099.903 44.859)"/>
+        <path id="Path_49" d="M28.165 32.555S12.94 33.356.6 16.529C12.94-.3 28.165.5 28.165.5" class="cls-1" data-name="Path 49" transform="translate(1063 36.504)"/>
+        <path id="Path_50" d="M17.8 32.555s15.225.8 27.565-16.026C33.185-.3 17.8.5 17.8.5" class="cls-1" data-name="Path 50" transform="translate(1071.365 36.504)"/>
+    </g>
+</svg>

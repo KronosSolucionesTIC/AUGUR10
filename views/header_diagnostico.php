@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="content-language" content="es">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,12 +27,22 @@
                 <img alt="" class="imagen img-fluid" height="100%" src="../../images/logo_bolivar.svg" width="150px">
                 </img>
             </div>
-            <div class="col-md-12 col-xs-12 col-lg-4 pt-4">
+            <div class="col-md-12 col-xs-12 col-lg-4 pt-3">
                 <nav class="jmenu">
                     <ul>
-                        <li class="Rectangle-66">
+                        <li>
                             <a href="#">
-                                <label class="letra_cafe text-center">Salir</label>
+                                <img src="../../images/btn_edit.svg" class="btn_edit" height="30px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/btn_diagnostico.svg" class="btn_edit" height="30px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <input type="submit" value="SALIR" class="boton1" name="new">
                             </a>
                         </li>
                     </ul>

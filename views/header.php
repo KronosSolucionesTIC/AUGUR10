@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="content-language" content="es">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,7 @@
                 <img alt="" class="imagen img-fluid" height="100%" src="../../images/logo_bolivar.svg" width="150px">
                 </img>
             </div>
-            <div class="col-md-12 col-xs-12 col-lg-4 pt-4">
+            <div class="col-md-12 col-xs-12 col-lg-4 pt-3">
                 <nav class="jmenu">
                     <ul>
                         <li>
@@ -35,9 +35,9 @@
                                 Ingresar
                             </a>
                         </li>
-                        <li class="Rectangle-66">
+                        <li>
                             <a href="../users/new.php">
-                                <label class="letra_cafe text-center">REGISTRAR</label>
+                                <input type="submit" value="REGISTRAR" class="boton1" name="new">
                             </a>
                         </li>
                     </ul>

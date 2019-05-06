@@ -1,7 +1,5 @@
 <?php
 include '../header_diagnostico.php';
-
-include '../../models/users.php';
 ?>
 <div class="container-fluid" id="principal">
   <div class="row">
@@ -59,16 +57,32 @@ include '../../models/users.php';
       </nav>
       <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-encuesta" role="tabpanel" aria-labelledby="nav-encuesta-tab">
-          Contenido Encuesta
+            <?php include 'encuesta.php'?>
         </div>
-        <div class="tab-pane fade" id="nav-company" role="tabpanel" aria-labelledby="nav-company-tab">Contenido Compañia</div>
-        <div class="tab-pane fade" id="nav-cadena" role="tabpanel" aria-labelledby="nav-cadena-tab">Contenido Cadena</div>
-        <div class="tab-pane fade" id="nav-tipo" role="tabpanel" aria-labelledby="nav-tipo-tab">Contenido Tipo</div>
-        <div class="tab-pane fade" id="nav-kpi" role="tabpanel" aria-labelledby="nav-kpi-tab">Contenido KPI´s</div>
-        <div class="tab-pane fade" id="nav-kri" role="tabpanel" aria-labelledby="nav-kri-tab">Contenido KRI´s</div>
-        <div class="tab-pane fade" id="nav-aguasArriba" role="tabpanel" aria-labelledby="nav-aguasArriba-tab">Contenido Aguas arriba</div>
-        <div class="tab-pane fade" id="nav-proceso" role="tabpanel" aria-labelledby="nav-proceso-tab">Contenido Proceso</div>
-        <div class="tab-pane fade" id="nav-aguasAbajo" role="tabpanel" aria-labelledby="nav-aguasAbajo-tab">Contenido Aguas abajo</div>
+        <div class="tab-pane fade" id="nav-company" role="tabpanel" aria-labelledby="nav-company-tab">
+            <?php include 'company.php'?>
+        </div>
+        <div class="tab-pane fade" id="nav-cadena" role="tabpanel" aria-labelledby="nav-cadena-tab"> 
+          <?php include 'cadena.php'?>  
+        </div>
+        <div class="tab-pane fade" id="nav-tipo" role="tabpanel" aria-labelledby="nav-tipo-tab">
+           <?php include 'tipo.php'?>
+        </div>
+        <div class="tab-pane fade" id="nav-kpi" role="tabpanel" aria-labelledby="nav-kpi-tab">
+           <?php include 'kpi.php'?>
+        </div>
+        <div class="tab-pane fade" id="nav-kri" role="tabpanel" aria-labelledby="nav-kri-tab">
+           <?php include 'kri.php'?>
+        </div>
+        <div class="tab-pane fade" id="nav-aguasArriba" role="tabpanel" aria-labelledby="nav-aguasArriba-tab">
+           <?php include 'aguasArriba.php'?>
+        </div>
+        <div class="tab-pane fade" id="nav-proceso" role="tabpanel" aria-labelledby="nav-proceso-tab">
+           <?php include 'proceso.php'?>
+        </div>
+        <div class="tab-pane fade" id="nav-aguasAbajo" role="tabpanel" aria-labelledby="nav-aguasAbajo-tab">
+          <?php include 'aguasAbajo.php'?>
+        </div>
       </div>
     </div>
     <div class="col-lg-1">
