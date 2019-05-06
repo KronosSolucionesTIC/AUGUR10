@@ -44,6 +44,8 @@ if (isset($_POST['Ingresar'])) {
     if ($users->getUserById($_POST['username'])) {
         if ($users->getPass($_POST['username'], $_POST['passwd'])) {
             //$users->getLog($_POST['username']);
+            session_start(); //Registra la sesion
+            $_SESSION['username'] = $_POST['username'];
             header('location: ../views/diagnostico/index.php');
         } else {
             header('location: ../views/login/index.php?pass=false');

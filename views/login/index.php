@@ -1,4 +1,5 @@
 <?php
+
 include '../header.php';
 
 include '../../models/users.php';
@@ -134,6 +135,28 @@ if (isset($_GET['pass'])) {
     ?>
       <div class="alert alert-danger">
         Clave digitada invalida.
+      </div>
+  <?php
+}
+?>
+  </div>
+<div class="form-group text-center">
+    <?php
+if (isset($_GET['sesion'])) {
+    ?>
+      <div class="alert alert-danger">
+        Inicie sesion.
+      </div>
+  <?php
+}
+?>
+  </div>
+<div class="form-group text-center">
+    <?php
+if (isset($_GET['logout'])) {
+    ?>
+      <div class="alert alert-success">
+        Logout exitoso.
       </div>
   <?php
 }

@@ -373,7 +373,7 @@
 	    color: #008c44;
 	}
 	.respuestas {
-	    width: 90px;
+	    width: 100px;
 	    height: 42px;
 	    border-radius: 21px;
 	    border: solid 1px #008c44;
@@ -393,7 +393,7 @@
 	    color: white;
 	}
 	.respuestas_sel {
-	    width: 90px;
+	    width: 100px;
 	    height: 42px;
 	    border-radius: 21px;
 	    border: solid 1px #008c44;

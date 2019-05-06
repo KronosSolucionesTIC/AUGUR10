@@ -41,7 +41,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="../logout.php">
                                 <input type="submit" value="SALIR" class="boton1" name="new">
                             </a>
                         </li>
@@ -64,7 +64,7 @@
             <div class="collapse navbar-collapse col-md-12 col-xs-12 menu" id="opciones">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../users/new.php">Salir</a>
+                        <a class="nav-link" href="../logout.php">SALIR</a>
                     </li>
                 </ul>
             </div>

@@ -45,23 +45,71 @@ $(function() {
         }
     });
     $("#next_encuesta").click(function() {
-        $(".nav-item.nav-link").removeClass("active");
+        desactivarTabs();
         $("#nav-company-tab").addClass("active");
     });
     $("#previous_company").click(function() {
-        $(".nav-item.nav-link").removeClass("active");
+        desactivarTabs();
         $("#nav-encuesta-tab").addClass("active");
     });
     $("#next_company").click(function() {
-        $(".nav-item.nav-link").removeClass("active");
+        desactivarTabs();
         $("#nav-cadena-tab").addClass("active");
     });
     $("#previous_cadena").click(function() {
-        $(".nav-item.nav-link").removeClass("active");
+        desactivarTabs();
         $("#nav-company-tab").addClass("active");
     });
     $("#next_cadena").click(function() {
-        $(".nav-item.nav-link").removeClass("active");
+        desactivarTabs();
         $("#nav-tipo-tab").addClass("active");
     });
+    $("#previous_tipo").click(function() {
+        desactivarTabs();
+        $("#nav-cadena-tab").addClass("active");
+    });
+    $("#next_tipo").click(function() {
+        desactivarTabs();
+        $("#nav-kpi-tab").addClass("active");
+    });
+    $("#previous_kpi").click(function() {
+        desactivarTabs();
+        $("#nav-tipo-tab").addClass("active");
+    });
+    $("#next_kpi").click(function() {
+        desactivarTabs();
+        $("#nav-kri-tab").addClass("active");
+    });
+    $("#previous_kri").click(function() {
+        desactivarTabs();
+        $("#nav-kpi-tab").addClass("active");
+    });
+    $("#next_kri").click(function() {
+        desactivarTabs();
+        $("#nav-aguasArriba-tab").addClass("active");
+    });
+    $("#previous_aguasArriba").click(function() {
+        desactivarTabs();
+        $("#nav-kri-tab").addClass("active");
+    });
+    $("#next_aguasArriba").click(function() {
+        desactivarTabs();
+        $("#nav-proceso-tab").addClass("active");
+    });
+    $("#previous_proceso").click(function() {
+        desactivarTabs();
+        $("#nav-aguasArriba-tab").addClass("active");
+    });
+    $("#next_proceso").click(function() {
+        desactivarTabs();
+        $("#nav-aguasAbajo-tab").addClass("active");
+    });
+    $("#previous_aguasAbajo").click(function() {
+        desactivarTabs();
+        $("#nav-proceso-tab").addClass("active");
+    });
+
+    function desactivarTabs() {
+        $(".nav-item.nav-link").removeClass("active");
+    }
 });

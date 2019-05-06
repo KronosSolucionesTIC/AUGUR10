@@ -1,4 +1,7 @@
 <?php
+
+include '../validar_sesion.php';
+
 include '../header_diagnostico.php';
 
 include '../../models/users.php';

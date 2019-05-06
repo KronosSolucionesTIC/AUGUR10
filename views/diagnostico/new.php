@@ -1,4 +1,5 @@
 <?php
+include '../validar_sesion.php';
 include '../header_diagnostico.php';
 ?>
 <div class="container-fluid" id="principal">
@@ -62,8 +63,8 @@ include '../header_diagnostico.php';
         <div class="tab-pane fade" id="nav-company" role="tabpanel" aria-labelledby="nav-company-tab">
             <?php include 'company.php'?>
         </div>
-        <div class="tab-pane fade" id="nav-cadena" role="tabpanel" aria-labelledby="nav-cadena-tab"> 
-          <?php include 'cadena.php'?>  
+        <div class="tab-pane fade" id="nav-cadena" role="tabpanel" aria-labelledby="nav-cadena-tab">
+          <?php include 'cadena.php'?>
         </div>
         <div class="tab-pane fade" id="nav-tipo" role="tabpanel" aria-labelledby="nav-tipo-tab">
            <?php include 'tipo.php'?>
